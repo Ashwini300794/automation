@@ -56,6 +56,7 @@ public class NewTest {
 				driver.findElement(By.xpath("//input[@name='password']")).sendKeys(s1);
 				driver.findElement(By.xpath("//input[@name='login']")).click();
 				driver.findElement(By.partialLinkText("SIGN-OFF")).click();
+				quit;
 			}
 		}
 	}
